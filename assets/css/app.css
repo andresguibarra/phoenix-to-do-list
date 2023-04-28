@@ -1,5 +1,13 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 /* This file is for your main application CSS */
+.task-completed {
+  text-decoration: line-through;
+}
+
+.task-past-due-date {
+  background: #c48080;
+  color: white;
+}

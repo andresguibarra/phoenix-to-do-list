@@ -17,7 +17,8 @@ defmodule ToDoList.Application do
       # Start Finch
       {Finch, name: ToDoList.Finch},
       # Start the Endpoint (http/https)
-      ToDoListWeb.Endpoint
+      ToDoListWeb.Endpoint,
+      ToDoList.CronjobTasks
       # Start a worker by calling: ToDoList.Worker.start_link(arg)
       # {ToDoList.Worker, arg}
     ]
