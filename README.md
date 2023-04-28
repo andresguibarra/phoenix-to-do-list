@@ -1,4 +1,10 @@
+
 # ToDoList
+
+ToDoList is a simple, yet powerful task management application built with the Phoenix framework. The application allows you to create, edit, and delete tasks, while also providing reminders and the ability to mark tasks as completed. With an intuitive and responsive interface, ToDoList makes it easy to keep track of your daily tasks and deadlines.
+
+![Screenshot](screenshot.png)
+
 
 To start your Phoenix server:
 
